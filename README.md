@@ -1,15 +1,10 @@
+# Spring Boot + Redis Full Project
 
-# Spring Boot + Redis Cache 🚀
-
-## Run with Docker
+## Run
+mvn clean package
 docker-compose up --build
 
 ## APIs
 POST /users
 GET /users/{id}
 DELETE /users/{id}
-
-## Tech
-- Spring Boot
-- Redis
-- Docker
